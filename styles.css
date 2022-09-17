@@ -67,7 +67,7 @@ a{
 
     .info{
         display:block;
-        width: 280px; 
+        width: 95%;  
         /* margin-left: auto;
         margin-right: auto; */
         background-color: aquamarine;
@@ -78,7 +78,7 @@ a{
 
     .content{
         display:block;
-        width: 280px;  
+        width: 95%;  
         padding-top: 5px;
         margin-left: auto;
         margin-right: auto;
@@ -93,12 +93,12 @@ a{
     }
 
     .form{
-       width: 280px;
+       width: 95%; 
         border-radius: 5px;
         padding: 10px;
     }
 
     .footer{
-        width: 280px;
+        width: 95%; 
     }
 }
