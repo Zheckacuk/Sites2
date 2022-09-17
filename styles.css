@@ -63,7 +63,7 @@ a{
     margin: 15px;
 }
 
-@media(max-width: 1000px){
+@media(max-width: 750px){
 
     .info{
         display:block;
