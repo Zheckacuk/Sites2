@@ -96,6 +96,13 @@ li{
         border-radius: 5px;
     }
 
+    li{
+        margin: 10px;
+        display: inline;
+        width: 25%;
+        font-size:15px;
+    }
+
     .info{
         display:block;
         width: 95%;  
