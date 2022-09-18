@@ -63,7 +63,38 @@ a{
     margin: 15px;
 }
 
+.menu{
+    background-color: rgb(158, 185, 215);
+    width: 770px;  
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 5px;
+}
+
+ul {
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+    padding-left: 0; /*убираем левый отступ, равный 40px*/
+  }
+
+li{
+    margin: 10px;
+    display: inline;
+    width: 25%;
+    font-size:20px;
+}
+
+  a {text-decoration: none; /*убираем подчеркивание текста ссылок*/}
+
 @media(max-width: 750px){
+
+    .menu{
+        width: 95%;
+        background-color: rgb(158, 185, 215);
+        border-radius: 5px;
+    }
 
     .info{
         display:block;
@@ -93,12 +124,12 @@ a{
     }
 
     .form{
-       width: 95%; 
+        width: 95%;
         border-radius: 5px;
         padding: 10px;
     }
 
     .footer{
-        width: 95%; 
+        width: 95%;
     }
 }
