@@ -63,14 +63,20 @@ a{
     margin: 15px;
 }
 
-.menu{
+nav{
     background-color: rgb(158, 185, 215);
+    /* position: fixed; */
     width: 770px;  
     height: 30px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     border-radius: 5px;
+    
+}
+
+hr{
+    width: 770px;
 }
 
 ul {
@@ -81,17 +87,17 @@ ul {
 
 li{
     margin: 10px;
-    display: inline;
-    width: 25%;
+    display:inline;
+    /* width: 25%; */
     font-size:20px;
 }
 
-  a {text-decoration: none; /*убираем подчеркивание текста ссылок*/}
+  a {text-decoration: none; }
 
 @media(max-width: 750px){
 
     .menu{
-        width: 95%;
+        width: 100%;
         background-color: rgb(158, 185, 215);
         border-radius: 5px;
     }
