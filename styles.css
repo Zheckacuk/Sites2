@@ -94,7 +94,7 @@ li{
 
   a {text-decoration: none; }
 
-@media(max-width: 750px){
+@media(max-width: 600px){
 
     .menu{
         width: 100%;
@@ -143,6 +143,9 @@ li{
     }
 
     .footer{
+        width: 95%;
+    }
+    hr{
         width: 95%;
     }
 }
